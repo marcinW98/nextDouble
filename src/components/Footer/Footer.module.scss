@@ -1,0 +1,12 @@
+@use "../../styles/variables" as variables;
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: variables.$color-text-default;
+  color: variables.$color-white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+@use "../../../styles/variables" as variables;
+
+.box {
+  width: 100vw;
+  height: 20vh;
+  margin-top: 500px;
+  background-color: variables.$color-theme-main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  transition: background-color 1s;
+}
+.boxVisible {
+  background-color: variables.$color-yellow;
+}

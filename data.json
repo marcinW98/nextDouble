@@ -1,0 +1,360 @@
+{
+  "users" : [
+    { "username": "admin", "password": "admin" },
+    { "username": "user", "password": "12345678" }
+],
+  "ratings": {
+    "title": "Ratings List",
+    "url": "/ratingstar",
+    "averageScoreLabel": "Average Score",
+    "reviews": [
+      {
+        "recordId": "5e95aa806e575fbe1fa78dff",
+        "name": "Kellie Mccormick",
+        "score": 3.3,
+        "content": "Mollit anim adipisicing adipisicing officia. Reprehenderit cupidatat qui amet pariatur voluptate commodo ea culpa aute incididunt duis."
+      },
+      {
+        "recordId": "5e95aa808a001857492fd90e",
+        "name": "Allison Ratliff",
+        "score": 1.6,
+        "content": "Do ipsum fugiat nisi ea laboris sit pariatur aliqua proident. Qui cillum veniam incididunt cupidatat mollit commodo tempor nisi ad ex duis ullamco ea ut."
+      },
+      {
+        "recordId": "5e95aa80c9f766d3146aef4b",
+        "name": "Mccray Byers",
+        "score": 4,
+        "content": "Lorem minim pariatur deserunt laborum cillum enim velit veniam duis tempor dolor consectetur incididunt. Ullamco velit eiusmod Lorem consectetur exercitation aliquip occaecat."
+      },
+      {
+        "recordId": "5e95aa80a4781bd158f3e9a3",
+        "name": "Boyd Forbes",
+        "score": 5,
+        "content": "Mollit id nulla consectetur ipsum proident culpa ea est sit. Consectetur sint sit cupidatat incididunt."
+      },
+      {
+        "recordId": "5e95aa805a7e1f538fe541f5",
+        "name": "Millicent Larsen",
+        "score": 5,
+        "content": "Est ut dolor consequat sunt occaecat adipisicing mollit aute. Adipisicing sunt nisi irure et irure mollit ex incididunt."
+      },
+      {
+        "recordId": "5e95aa80881a5c74274c1dba",
+        "name": "Odessa Greer",
+        "score": 1,
+        "content": "Aliqua voluptate duis dolore non culpa elit officia tempor. Ex proident incididunt Lorem amet non proident."
+      },
+      {
+        "recordId": "5e95aa80e2d31d22e7dbec80",
+        "name": "Alejandra Petersen",
+        "score": 3,
+        "content": "Aliquip duis et eiusmod aute nostrud nisi in do. Reprehenderit minim et reprehenderit eiusmod proident excepteur occaecat enim magna nulla commodo veniam."
+      },
+      {
+        "recordId": "5e95aa808cb8c63b4e6d2e35",
+        "name": "Solis Donovan",
+        "score": 5,
+        "content": "Enim in nisi sunt est velit aliquip. Aliqua pariatur nostrud exercitation esse voluptate mollit in eiusmod mollit."
+      },
+      {
+        "recordId": "5e95aa80a98558752d8df890",
+        "name": "Neal Sims",
+        "score": 4,
+        "content": "Eu magna Lorem excepteur non adipisicing aliqua laboris minim nisi tempor cillum magna nostrud. Irure enim amet aute ipsum."
+      },
+      {
+        "recordId": "5e95aa80243c1c9ef58eaaa0",
+        "name": "Alisa Mcneil",
+        "score": 5,
+        "content": "Tempor deserunt officia laboris excepteur laboris eu laboris minim occaecat. Duis amet enim pariatur nostrud adipisicing velit nostrud in dolor exercitation dolor."
+      },
+      {
+        "recordId": "5e95aa804828562f7e8a1d36",
+        "name": "Campos Sanders",
+        "score": 5,
+        "content": "Duis magna proident adipisicing pariatur ea occaecat commodo. Minim aute nisi mollit enim incididunt nostrud ad esse nostrud sint adipisicing."
+      },
+      {
+        "recordId": "5e95aa806305f8b0fb2ebe8b",
+        "name": "Ferguson Kerr",
+        "score": 2,
+        "content": "Sint consectetur et do et reprehenderit non incididunt reprehenderit. Sint ad reprehenderit elit exercitation fugiat."
+      },
+      {
+        "recordId": "5e95aa807cd9d4dd4fb06ccf",
+        "name": "Abbott Mejia",
+        "score": 1,
+        "content": "Consequat ipsum incididunt ullamco eu in id cupidatat cupidatat veniam commodo exercitation. Velit ullamco nulla id consequat consectetur nostrud exercitation velit."
+      },
+      {
+        "recordId": "5e95aa80d1925060b252a129",
+        "name": "Keisha Holmes",
+        "score": 3,
+        "content": "Eu officia elit sit duis voluptate ea. In laborum irure officia ex nisi nisi cupidatat consequat elit eu et."
+      }
+    ]
+  },
+  "useMemoStateSection": {
+    "title": "Use memo state"
+  },
+  "authSection": {
+    "title": "Auth Section"
+  },
+  "useGeo": {
+    "title": "UseGeo",
+    "defaultCoords": { "latitude": 51.507351, "longitude": -0.127758 }
+  },
+  "tableWithPagination": {
+    "title": "TableWithPagination",
+    "elementsOnPage": 5,
+    "scores": [
+      {
+        "name": "Kellie Mccormick",
+        "score": 3.3
+      },
+      {
+        "name": "Allison Ratliff",
+        "score": 1.6
+      },
+      {
+        "name": "Mccray Byers",
+        "score": 4
+      },
+      {
+        "name": "Boyd Forbes",
+        "score": 5
+      },
+      {
+        "name": "Millicent Larsen",
+        "score": 5
+      },
+      {
+        "name": "Odessa Greer",
+        "score": 1
+      },
+      {
+        "name": "Alejandra Petersen",
+        "score": 3
+      },
+      {
+        "name": "Solis Donovan",
+        "score": 5
+      },
+      {
+        "name": "Neal Sims",
+        "score": 4
+      },
+      {
+        "name": "Alisa Mcneil",
+        "score": 5
+      },
+      {
+        "name": "Campos Sanders",
+        "score": 5
+      },
+      {
+        "name": "Ferguson Kerr",
+        "score": 2
+      },
+      {
+        "name": "Abbott Mejia",
+        "score": 1
+      },
+      {
+        "name": "Keisha Holmes",
+        "score": 3
+      }
+    ]
+  },
+  "modal": {
+    "title": "Modal",
+    "callToActionLabel": "Success",
+    "content": "to powinno tak działać"
+  },
+  "searchWithDropdown": {
+    "title": "SearchWithDropdown",
+    "h2Text": "Wyszukiwarka",
+    "searchingTitle": "Search",
+    "sortingTitle": "Sorting",
+    "sortingType": "A-Z",
+    "searchData": [
+      {
+        "name": "Zixed TOC - table of contents for WordPress plugin",
+        "regularPrice": 20,
+        "salePrice": 3.99,
+        "id": "2sd341"
+      },
+      {
+        "name": "Jobify - The Most Popular WordpPress Job Board Theme",
+        "regularPrice": 59,
+        "salePrice": 3.99,
+        "id": "34d3d241"
+      },
+      {
+        "name": "Lorem ipsum",
+        "regularPrice": 99,
+        "salePrice": 21,
+        "id": "132sfdsd341"
+      }
+    ]
+  },
+  "masonryGrid": {
+    "title": "Masonry Grid",
+    "url": "/masonrygrid",
+    "arrayOf20Images": [
+      {
+        "id": "dggg312asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/ba63343c-4278-497b-95fb-3a676bbc68a4/blvr_teasers_plaza.jpg?format=500w",
+        "title": "The Believer"
+      },
+      {
+        "id": "xawdwq212asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/718989f9-b394-40d2-8ba9-cd7845ca9c37/ILL-3+kopi.jpg?format=500w",
+        "title": "Financial Times"
+      },
+      {
+        "id": "3hs12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/d502529d-d13f-4b1b-9aff-41f1cf8a3ce5/newyorker-23-01.jpg?format=500w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "g3212asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/7f78e65d-c824-493a-99a5-041cafac54e5/blvr_teasers_brownsteinB.jpg?format=500w",
+        "title": "The Believer"
+      },
+      {
+        "id": "xaw212asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/ccd054ad-c3c9-4311-bf75-3f77c923e34d/IRISHMAN-03+kopi.jpg?format=500w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "24521s12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/6993ce5d-74a8-427b-890e-0b0f96c2e670/LILY-COLE-01+kopi.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "ddw212asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/5f617801-3270-4308-b4b1-0da56cb67951/LENNY-HENRY-01+kopi.jpg?format=1000w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "asdwq12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/b996bb92-fb19-4f87-8c3a-1a63b488650e/2.the-new-york-times-deadofsummer.jpg?format=500w",
+        "title": "The New York Times Book Review"
+      },
+      {
+        "id": "zxc12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/60ff453c-2f47-4ee5-9cee-03824b50ccb8/blvr_teasers_hornby.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "qwe12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/72d0787c-a7a2-4c78-8ddd-be722fddced2/BURGESS-01+kopi.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "dwq12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/4c7c80fd-45e4-4f28-b554-d822bf1a6993/blvr_teasers_alda.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "sa12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/29b0d979-1374-459f-a96e-77301317e0c4/RUSHDIE-01+kopi.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "xxaw12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/7025432f-b9b5-4d60-b2c2-cb1455c0e32c/TED-LASSO-01+kopi.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "3d12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/4703d723-c55e-4d79-a606-a6b917babccb/blvr_teasers_olsen.jpg?format=500w",
+        "title": "New Statesman"
+      },
+      {
+        "id": "aa12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/4390659f-d7c4-4922-8136-62db6c2d2799/KENDRICK-LAMAR-02a+kopi.jpg?format=750w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "x12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/5d95913c-1d76-4e2d-bcdc-b6da83117cba/RHYS-01+kopi.jpg?format=500w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "z12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/f8d7c49b-6490-4c5b-ac70-fa0279384d10/SLIMANI-01+kopi.jpg?format=500w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "d12asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/5750f5bb-c12e-4e7e-95e9-6be6358c1533/BH-01.jpg?format=750w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "312asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/fa5bd646-2295-4696-b910-4dbb6271f188/DAN-MALLORY-02C.jpg?format=500w",
+        "title": "The New Yorker"
+      },
+      {
+        "id": "212asd3",
+        "src": "https://images.squarespace-cdn.com/content/v1/63da1eeeb35caa639ed393a3/5cb8111b-0a09-4070-a355-d95caaae0ecf/HJORTH-03.jpg?format=500w",
+        "title": "The New Yorker"
+      }
+    ]
+  },
+  "passwordInput": {
+    "title": "Password Input",
+    "url": "/passwordinput",
+    "password": "12345678"
+  },
+  "infiniteHumanList": {
+    "title": "Infinite Human List",
+    "url": "/infinitehumanlist",
+    "names": [
+      "Anna",
+      "Michał",
+      "Katarzyna",
+      "Piotr",
+      "Monika",
+      "Tomasz",
+      "Agnieszka",
+      "Paweł",
+      "Ewa",
+      "Krzysztof",
+      "Maria",
+      "Marcin",
+      "Joanna",
+      "Andrzej",
+      "Magda"
+    ],
+    "surnames": [
+      "Kowalski",
+      "Nowak",
+      "Wiśniewski",
+      "Wójcik",
+      "Kowalczyk",
+      "Kamiński",
+      "Lewandowski",
+      "Zieliński",
+      "Szymański",
+      "Woźniak",
+      "Dąbrowski",
+      "Kozłowski",
+      "Jankowski",
+      "Mazur",
+      "Kwiatkowski"
+    ],
+    "ages": [5, 12, 15, 17, 18, 21, 23, 25, 29, 31, 37, 38, 47, 51, 54, 64],
+    "genders": ["male", "female"]
+  },
+  "intersectionObserver": {
+    "title": "Intersection Observer",
+    "url": "/intersectionobserver"
+  },
+  "multistepForm": {
+    "title": "Multistep Form",
+    "url": "/multistepform"
+  }
+}

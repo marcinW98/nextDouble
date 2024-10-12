@@ -1,0 +1,37 @@
+@use "../../styles/variables" as variables;
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: variables.$color-theme-main;
+  color: variables.$color-text-grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  position: fixed;
+  z-index: 1;
+
+  &__wrapper {
+    padding-right: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__button {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+    background-color: variables.$color-silver;
+    border-radius: 20px;
+  }
+
+  &__button:hover {
+    background-color: variables.$color-yellow;
+  }
+}

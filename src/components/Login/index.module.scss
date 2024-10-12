@@ -1,0 +1,102 @@
+@use "sass:map";
+@use "../../styles/variables";
+
+@media (min-width: map.get(variables.$breakpoints, "super-smaller")) {
+  .form {
+    background-color: variables.$color-theme-main;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+      font-size: 45px;
+      color: variables.$color-yellow;
+      margin-bottom: 50px;
+    }
+
+    &__field {
+      margin: 5px 0;
+      text-align: center;
+    }
+
+    &__submitButton {
+      background-color: variables.$color-yellow;
+      color: variables.$color-text-default;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      height: 30px;
+      width: 80px;
+      margin-top: 10px;
+    }
+
+    &__submitButton:hover {
+      background-color: variables.$color-yellow;
+      color: variables.$color-text-default;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 80%;
+      padding: 5px;
+      border: 1px solid variables.$color-text-default;
+      border-radius: 5px;
+    }
+  }
+}
+@media (min-width: map.get(variables.$breakpoints, "desktop")) {
+  .form {
+    background-color: variables.$color-theme-main;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+      font-size: 56px;
+      color: variables.$color-yellow;
+      margin-bottom: 70px;
+    }
+
+    &__field {
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    &__submitButton {
+      background-color: variables.$color-yellow;
+      color: variables.$white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      height: 50px;
+      width: 100px;
+    }
+
+    &__submitButton:hover {
+      background-color: variables.$gold;
+      color: variables.$primary-black;
+    }
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid variables.$primary-black;
+    border-radius: 5px;
+  }
+}

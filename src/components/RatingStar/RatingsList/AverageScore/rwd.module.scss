@@ -1,0 +1,15 @@
+@use "sass:map";
+@use "./base.module.scss";
+@use "../../../../styles/variables";
+
+@media (min-width: map.get(variables.$breakpoints, "desktop")) {
+  .wrapper {
+    margin: 50px;
+  }
+}
+
+@media (min-width: map.get(variables.$breakpoints, "large")) {
+  .wrapper {
+    margin: 70px;
+  }
+}

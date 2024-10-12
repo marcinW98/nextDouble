@@ -1,0 +1,25 @@
+@use "../../../styles/variables" as variables;
+
+.table {
+  font-size: 1.5rem;
+  width: 100%;
+  border-collapse: collapse;
+
+  &__head {
+    background-color: variables.$color-theme-main;
+    color: #fff;
+    text-align: center;
+  }
+  &__body td {
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  &__body tr:nth-child(even) {
+    background-color: variables.$color-white;
+  }
+
+  &__body tr:hover {
+    background-color: variables.$color-yellow;
+  }
+}

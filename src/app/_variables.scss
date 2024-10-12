@@ -1,0 +1,26 @@
+$font-size-default: 16px;
+$font-family-default: Helvetica, Arial, sans-serif;
+$color-text-default: #222020;
+$color-text-grey: #7a7a7a;
+$color-yellow: #ffde00;
+$color-white: #ffffff;
+$color-theme-main: #056943;
+
+$primary-black: #111111;
+$secondary-lightblue: #77c3ec;
+$white: #fff;
+$blue: #0000ff;
+$gold: #ffd700;
+$lightgreen: #90ee90;
+$lightgray: lightgray;
+
+$breakpoints: (
+  "super-smaller": 450px,
+  "smaller": 672px,
+  "desktop": 800px,
+  "small": 1024px,
+  "large-min": 1148px,
+  "large": 1440px,
+  "desktop-max": 1512px,
+  "large-max": 1920px,
+) !default;

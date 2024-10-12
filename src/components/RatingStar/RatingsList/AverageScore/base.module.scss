@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__Title {
+    color: white;
+  }
+
+  &Stars {
+    padding: 2px;
+  }
+}

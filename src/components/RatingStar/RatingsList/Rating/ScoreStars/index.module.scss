@@ -1,0 +1,14 @@
+.Stars {
+  display: inline-block;
+  font-size: 60px;
+  font-family: Times;
+  line-height: 1;
+  background: linear-gradient(
+    90deg,
+    (gold) var(--percentRating),
+    (lightgrey) var(--percentRating)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

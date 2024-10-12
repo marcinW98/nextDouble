@@ -1,0 +1,31 @@
+@use "../../styles/variables" as variables;
+
+.taskMenu {
+  background-color: variables.$color-yellow;
+  color: variables.$color-text-default;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+
+  &__task {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+    display: flex;
+    background-color: variables.$color-theme-main;
+    color: variables.$color-yellow;
+    border-radius: 10px;
+  }
+
+  &__task:hover {
+    background-color: variables.$color-silver;
+    color: variables.$color-text-default;
+  }
+}
