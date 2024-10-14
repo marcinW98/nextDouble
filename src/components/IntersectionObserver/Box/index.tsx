@@ -15,6 +15,8 @@ export const Box = React.forwardRef<HTMLDivElement, BoxType>(({ isVisible = fals
   );
 });
 
+Box.displayName = "Box";
+
 // export const MyBox = ({ isVisible = false }) => {
 //   const isBoxVisibleClass = isVisible ? boxVisible : "";
 

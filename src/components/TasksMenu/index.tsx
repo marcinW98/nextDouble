@@ -21,10 +21,6 @@ export const TasksMenu = () => {
       <Link className={taskMenu__task} href={intersectionObserver.url}>
         {intersectionObserver.title}
       </Link>
-
-      <Link className={taskMenu__task} href={multistepForm.url}>
-        {multistepForm.title}
-      </Link>
     </div>
   );
 };

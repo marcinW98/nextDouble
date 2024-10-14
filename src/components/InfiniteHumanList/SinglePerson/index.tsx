@@ -12,3 +12,5 @@ export const SinglePerson = forwardRef<HTMLTableRowElement, SinglePersonTypes>(
     </tr>
   )
 );
+
+SinglePerson.displayName = "SinglePerson";
